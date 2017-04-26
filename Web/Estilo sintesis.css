@@ -1,0 +1,38 @@
+
+	body {
+		text-align: center;
+	}
+
+	div {
+		width: 250px;
+		height: 250px;
+		margin: 5px;
+		display: inline-block;
+		font-family: Times;
+		background-color: green;
+		border-radius: 15px;
+	}
+
+
+
+/* Mobil */
+@media only screen and (max-width: 479px) and (orientation: portrait)
+	{
+
+	}
+
+@media only screen and (max-width: 479px) and (orientation: landscape)
+	{
+		div {
+		width: 80%;
+		}
+
+	}
+
+/* Escriptori */
+@media only screen and (min-width: 480px)
+	{
+		div {
+			width: 40%;
+			}
+	}
