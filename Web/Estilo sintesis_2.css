@@ -99,7 +99,9 @@
 	#contingut {
 		background-color: black;
 		width: 80%;
+		height: 80%;
 		float: left;
+		overflow: auto;
 	}
 
 	.modulo{
