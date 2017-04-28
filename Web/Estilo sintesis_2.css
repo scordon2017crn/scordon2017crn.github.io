@@ -1,0 +1,115 @@
+
+	body {
+		text-align: center;
+		margin: 0;
+		border: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		overflow: auto;
+		font-family: Times;
+	}
+
+	
+
+
+
+
+/* Mobil */
+@media only screen and (max-width: 767px) and (orientation: portrait)
+	{
+
+		#menuarriba {
+			background-color: #456E3F;
+			height: 10%;
+		}
+
+		#menulateral {
+			background-color: #C0F76E;
+			height: 20%;
+		}
+
+		#contingut {
+			background-color: black;
+			overflow: hidden;
+		}
+
+		.modulo {
+				height: 8em;
+				margin: 5px;
+				background-color: green;
+				border-radius: 15px;
+		}
+
+	}
+
+@media only screen and (max-width: 767px) and (orientation: landscape)
+	{
+		#menuarriba {
+			background-color: #456E3F;
+			height: 20%;
+
+		}
+
+		#menulateral {
+			background-color: #C0F76E;
+			width: 20%;
+			height: 80%;
+			float: left;
+		}
+
+		#contingut {
+			background-color: black;
+			width: 80%;
+			float: left;
+		}
+
+		.modulo{
+				width: 250px;
+				height: 250px;
+				margin: 5px;
+				display: inline-block;
+				font-family: Times;
+				background-color: green;
+				border-radius: 15px;
+		}
+
+	}
+
+/* Escriptori */
+@media only screen and (min-width: 768px)
+	{
+
+		#menuarriba {
+		background-color: #456E3F;
+		height: 20%;
+
+	}
+
+	#menulateral {
+		background-color: #C0F76E;
+		width: 20%;
+		height: 80%;
+		float: left;
+	}
+
+	#contingut {
+		background-color: black;
+		width: 80%;
+		float: left;
+	}
+
+	.modulo{
+			width: 38%;
+			height: 15em;
+			margin: 5px;
+			display: inline-block;
+			font-family: Times;
+			background-color: green;
+			border-radius: 15px;
+		}
+
+	}
