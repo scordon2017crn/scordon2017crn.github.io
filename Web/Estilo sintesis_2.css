@@ -10,7 +10,7 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		overflow: auto;
+		overflow: hidden;
 		font-family: Times;
 	}
 
@@ -60,7 +60,7 @@
 @media only screen and (max-width: 767px) and (orientation: landscape)
 	{
 		#menuarriba {
-			background-image: url(Images/Cabeza.png);
+			background-image: url(Images/Cabezeralandscape.jpg);
 			height: 20%;		
 			overflow: hidden;
 
@@ -148,8 +148,8 @@
 	{
 
 	#menuarriba {
-	background-image: url(Images/Cabeza.png);
-	height: auto;		
+	background-image: url(Images/Cabezera.jpg);
+	height: 20%;		
 	overflow: hidden;
 
 	}
@@ -167,7 +167,7 @@
 	#contingut {
 		background-image: url(Images/fondoweb.jpg);
 		background-repeat: repeat;
-		height: 69%;
+		height: 74%;
 		overflow: auto;
 		
 	}
