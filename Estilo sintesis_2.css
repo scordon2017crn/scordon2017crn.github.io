@@ -1,0 +1,227 @@
+
+	body {
+		background-color: black;
+		text-align: center;
+		margin: 0;
+		border: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		overflow: hidden;
+		font-family: Times;
+	}
+
+	
+
+
+
+
+/* Mobil */
+@media only screen and (max-width: 767px) and (orientation: portrait)
+	{
+
+		#menuarriba {
+			background-image: url(Images/Cabeza.png);
+			overflow: hidden;
+			height: 10%;			
+			position: fixed;
+			top: 0;
+			right: 0;
+			left: 0;
+		}
+		#menuarriba #titol {
+		font-size: 2em;
+		color: #FFF;
+
+	}
+
+		#menulateral {
+			background-color: #C0F76E;
+			height: 20%;
+		}
+
+		#contingut {
+			background-color: black;
+			overflow: hidden;
+		}
+
+		.modulo {
+				height: 8em;
+				margin: 5px;
+				background-color: green;
+				border-radius: 15px;
+		}
+
+	}
+
+@media only screen and (max-width: 767px) and (orientation: landscape)
+	{
+		#menuarriba {
+			background-image: url(Images/Cabezeralandscape.jpg);
+			height: 20%;		
+			overflow: hidden;
+
+		}
+		#menuarriba #titol {
+			font-size: 2.5em;
+			color: #fff;
+			margin: 0.2em auto;
+		}
+			
+		#menulateral {
+			background-color: #2E2E2E;
+			width: 18%;
+			height: 80%;
+			float: left;
+			overflow: auto;
+		}
+
+		#contingut {
+			background-color: black;
+			width: 80%;
+			height: auto;
+			float: left;
+			overflow: hidden;
+		}
+
+		.modulo {
+			width: 40%;
+			height: 250px;
+			margin: 5px;
+			display: inline-block;
+			font-family: Times;
+			background-color: green;
+			border-radius: 15px;
+		}
+
+		ul {
+
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #2E2E2E;
+		}
+
+		li {
+		    float: left;
+		}
+
+		li a {
+
+			display: block;
+		    color: white;
+		    text-align: left;
+		    padding: 15px 10px;
+		    text-decoration: none;
+			transition: all 0.8s;
+		}
+		.button {
+
+			display: block;
+		  	cursor: pointer;
+		  	text-decoration: none;
+		  	outline: none;
+		  	color: #fff;
+		  	background-color: #2E2E2E;
+		  	border: none;
+		}
+
+		.button:hover {
+			background-color: #936520;
+			width: 200%;
+
+		}
+
+		.button:active {
+		 	background-color: #DD901D;
+		 	transform: translateY(0.3em);
+		}
+
+	}
+
+/* Escriptori */
+@media only screen and (min-width: 768px)
+	{
+
+	#menuarriba {
+	background-image: url(Images/Cabezera.jpg);
+	height: 20%;		
+	overflow: hidden;
+
+	}
+	#menuarriba #titol {
+		font-size: 5em;
+		color: #FFF;
+	}
+
+	#menulateral {
+		background-color: #000;
+		height: auto;
+		overflow: hidden;
+	}
+
+	#contingut {
+		background-image: url(Images/fondoweb.jpg);
+		background-repeat: repeat;
+		height: 74%;
+		overflow: auto;
+		
+	}
+
+	#sobre {
+			width: 80%;
+			height: 90%;
+			margin: 4% auto;
+			font-family: Times;
+			background-color: white;
+			opacity: 0.8;
+			border-radius: 15px;
+		}
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2E2E2E;
+}
+
+li {
+    float: left;
+}
+
+li a {
+
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+	transition: all 0.8s;
+}
+.button {
+
+	display: inline-block;
+  	cursor: pointer;
+  	text-align: center;
+  	text-decoration: none;
+  	outline: none;
+  	color: #fff;
+  	background-color: #2E2E2E;
+  	border: none;
+}
+
+.button:hover {
+	background-color: #936520;
+
+}
+
+.button:active {
+  background-color: #DD901D;
+  transform: translateY(0.2em);
+}
