@@ -10,7 +10,7 @@
 		bottom: 0;
 		left: 0;
 		right: 0;
-		overflow: hidden;
+		overflow: auto;
 		font-family: Times;
 	}
 
@@ -38,16 +38,16 @@
 			
 		#menulateral {
 		background-color: #2E2E2E;
-		height: auto;
+		height: 10%;
 		overflow: hidden;
 		}
 
 		#contingut {
 			background-color: black;
 			width: 80%;
-			height: auto;
+			height: 80%;
 			float: left;
-			overflow: hidden;
+			overflow: auto;
 		}
 
 
@@ -68,7 +68,7 @@
 
 			display: inline-block;
 		    color: white;
-		    padding: 0.8em;
+		    padding: 5px 8px;
 		    text-decoration: none;
 		}
 		.button {
@@ -102,7 +102,7 @@
 			background-repeat: no-repeat;
 
 		}
-		#menuarriba #titol {
+		#titol {
 			font-size: 2.5em;
 			color: #fff;
 			margin: 0.2em auto;
@@ -110,27 +110,25 @@
 			
 		#menulateral {
 			background-color: #2E2E2E;
-			width: 18%;
+			width: 20%;
 			height: 80%;
 			float: left;
 			overflow: auto;
 		}
 
-		#contingut {
+		.contingut {
 			background-color: black;
 			width: 80%;
-			height: auto;
+			height: 80%;
 			float: left;
 			overflow: hidden;
 		}
 
 
 		ul {
-
 			list-style-type: none;
 			margin: 0;
 			padding: 0;
-			overflow: hidden;
 			background-color: #2E2E2E;
 		}
 
@@ -139,34 +137,32 @@
 		}
 
 		li a {
-
 			display: block;
+			text-align: left;
 		    color: white;
-		    text-align: left;
-		    padding: 15px 10px;
+		    padding: 1em 0.2em;
+		    padding-right: 0.5em;
 		    text-decoration: none;
-			transition: all 0.8s;
+			transition: 0.6s;
 		}
 		.button {
-
-			display: block;
-		  	cursor: pointer;
 		  	text-decoration: none;
 		  	outline: none;
-		  	color: #fff;
 		  	background-color: #2E2E2E;
 		  	border: none;
 		}
 
 		.button:hover {
 			background-color: #936520;
-			width: 200%;
+			transition: 0.6s;
 
 		}
 
 		.button:active {
 		 	background-color: #DD901D;
 		 	transform: translateX(0.2em);
+		 	transition: none;
+
 		}
 
 	}
@@ -176,13 +172,13 @@
 	{
 
 	#menuarriba {
-	background-image: url(Images/Cabezera.jpg);
-	height: 20%;		
-	overflow: hidden;
-	background-repeat: no-repeat;
+		background-image: url(Images/Cabezera.jpg);
+		height: 20%;		
+		overflow: hidden;
+		background-repeat: no-repeat;
 
 	}
-	#menuarriba #titol {
+	#titol {
 		font-size: 5em;
 		color: #FFF;
 		margin: 0.5em;
@@ -204,60 +200,62 @@
 	}
 
 	.sobre {
-			width: 80%;
-			height: 90%;
-			margin: 4% auto;
-			font-family: Times;
-			background-color: white;
-			opacity: 0.8;
-			border-radius: 15px;
+		width: 80%;
+		height: 90%;
+		margin: 4% auto;
+		font-family: Times;
+		background-color: white;
+		opacity: 0.8;
+		border-radius: 15px;
 		}
 
-		#historia {
-			padding: 1em;
-			cursor: default;
+	#historia {
+		padding: 1em;
+		cursor: default;
 		}
 
-ul {
+	ul {
 
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #2E2E2E;
-}
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #2E2E2E;
+	}
 
-li {
-    float: left;
-}
+	li {
+	    float: left;
+	}
 
-li a {
+	li a {
 
-	display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 14px;
-    text-decoration: none;
-	transition: all 0.8s;
-}
-.button {
+		display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 14px;
+	    text-decoration: none;
+		transition: all 0.8s;
+	}
+	.button {
 
-	display: inline-block;
-  	cursor: pointer;
-  	text-align: center;
-  	text-decoration: none;
-  	outline: none;
-  	color: #fff;
-  	background-color: #2E2E2E;
-  	border: none;
-}
+		display: inline-block;
+	  	cursor: pointer;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	outline: none;
+	  	color: #fff;
+	  	background-color: #2E2E2E;
+	  	border: none;
+	}
 
-.button:hover {
-	background-color: #936520;
+	.button:hover {
+		background-color: #936520;
+		transition: 0.6s;
 
-}
+	}
 
-.button:active {
-  background-color: #DD901D;
-  transform: translateY(0.2em);
-}
+	.button:active {
+	  background-color: #DD901D;
+	  transform: translateY(0.2em);
+	  transition: none;
+	}
