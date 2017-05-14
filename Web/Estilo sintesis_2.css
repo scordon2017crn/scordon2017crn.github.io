@@ -29,11 +29,10 @@
 			background-repeat: no-repeat;
 
 		}
-		#menuarriba #titol {
+		#titol {
 			font-size: 2.5em;
 			color: #fff;
-			margin: 0.2em auto;
-			border: 10px black;
+			margin: 0.6em;
 		}
 			
 		#menulateral {
@@ -42,12 +41,25 @@
 		overflow: hidden;
 		}
 
-		#contingut {
-			background-color: black;
-			width: 80%;
-			height: 80%;
-			float: left;
+		.contingut {
+			background-image: url(Images/fondoportrait.jpg);
+			height: 70%;
 			overflow: auto;
+		}
+
+		.sobre {
+			width: 80%;
+			height: 85%;
+			margin: 4% auto;
+			font-family: Times;
+			background-color: white;
+			opacity: 0.8;
+			border-radius: 15px;
+		}
+
+		.titulos {
+			padding: 1em;
+			cursor: default;
 		}
 
 
@@ -117,11 +129,26 @@
 		}
 
 		.contingut {
-			background-color: black;
+			background-image: url(Images/fondolandscape.jpg);
 			width: 80%;
 			height: 80%;
 			float: left;
-			overflow: hidden;
+			overflow: auto;
+		}
+
+		.sobre {
+			width: 80%;
+			height: 90%;
+			margin: 4% auto;
+			font-family: Times;
+			background-color: white;
+			opacity: 0.8;
+			border-radius: 15px;
+		}
+
+		.titulos {
+			padding: 1em;
+			cursor: default;
 		}
 
 
@@ -209,7 +236,7 @@
 		border-radius: 15px;
 		}
 
-	#historia {
+	.titulos {
 		padding: 1em;
 		cursor: default;
 		}
