@@ -37,7 +37,7 @@
 			
 		#menulateral {
 		background-color: #2E2E2E;
-		height: 10%;
+		height: auto;
 		overflow: hidden;
 		}
 
@@ -133,7 +133,8 @@
 			width: 20%;
 			height: 80%;
 			float: left;
-			overflow: auto;
+			overflow-y: auto;
+			overflow-x: hidden;
 		}
 
 		.contingut {
@@ -197,6 +198,7 @@
 
 		.button:hover {
 			background-color: #936520;
+			width: 115%;
 			transition: 0.6s;
 
 		}
@@ -220,19 +222,20 @@
 		overflow: hidden;
 		background-repeat: no-repeat;
 
-	}
+		}
+
 	#titol {
 		font-size: 5em;
 		color: #FFF;
 		margin: 0.5em;
 		cursor: default;
-	}
+		}
 
 	#menulateral {
 		background-color: #000;
 		height: auto;
 		overflow: hidden;
-	}
+		}
 
 	.contingut {
 		background-image: url(Images/Bloemfontein.jpg);
@@ -240,7 +243,7 @@
 		height: 75%;
 		overflow: auto;
 		
-	}
+		}
 
 	.sobre {
 		width: 80%;
