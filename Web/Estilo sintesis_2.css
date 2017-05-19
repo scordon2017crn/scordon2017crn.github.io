@@ -23,39 +23,59 @@
 @media only screen and (max-width: 767px) and (orientation: portrait)
 	{
 		#menuarriba {
-			background-image: url(Images/cabesa1.jpg);
-			height: 20%;		
+			background-image: url(Images/cabeceraportrait.jpg);
+			height: 12.5%;		
 			overflow: hidden;
 			background-repeat: no-repeat;
 
 		}
+
+		#cuadrotitol {
+			background-color: rgba(0,0,0,0.4);
+		}
+
 		#titol {
-			font-size: 2.5em;
+			font-size: 1.5em;
 			color: #fff;
-			margin: 0.6em;
+			margin-top: 1em;
 		}
 			
 		#menulateral {
-		background-color: #2E2E2E;
-		height: auto;
-		overflow: hidden;
-		}
+			background-color: #2E2E2E;
+			height: auto;
+			overflow: hidden;
+			}
 
 		.contingut {
 			background-image: url(Images/fondoportrait.jpg);
-			height: 70%;
+			height: 90%;
 			overflow: auto;
 		}
 
 		.sobre {
 			width: 80%;
-			height: 85%;
+			height: auto;
+			max-height: 80%;
 			margin: 4% auto;
 			font-family: Times;
-			background-color: white;
-			opacity: 0.8;
-			border-radius: 15px;
+			background-color: rgba(255,255,255,0.8);
+			border-top-left-radius: 1em;
+			border-bottom-left-radius: 1em;
 			overflow: auto;
+		}
+
+		.sobre::-webkit-scrollbar {
+			width: 1.7%;
+			margin-right: 10px;
+			background-color: #F8F8F8;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+			border-radius: 20px;
+		}
+
+		.sobre::-webkit-scrollbar-thumb {
+			border-radius: 1em;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+			background-color: #CCCCCC;
 		}
 
 		.titulos {
@@ -116,16 +136,20 @@
 @media only screen and (max-width: 767px) and (orientation: landscape)
 	{
 		#menuarriba {
-			background-image: url(Images/cabesa1.jpg);
+			background-image: url(Images/cabeceralandscape.jpg);
 			height: 20%;		
 			overflow: hidden;
 			background-repeat: no-repeat;
 
 		}
+
+		#cuadrotitol {
+			background-color: rgba(0,0,0,0.4);
+		}
+
 		#titol {
-			font-size: 2.5em;
+			font-size: 1.5em;
 			color: #fff;
-			margin: 0.2em auto;
 		}
 			
 		#menulateral {
@@ -150,10 +174,24 @@
 			height: 90%;
 			margin: 4% auto;
 			font-family: Times;
-			background-color: white;
-			opacity: 0.8;
-			border-radius: 15px;
+			background-color: rgba(255,255,255,0.8);
+			border-top-left-radius: 1em;
+			border-bottom-left-radius: 1em;
 			overflow: auto;
+		}
+
+		.sobre::-webkit-scrollbar {
+			width: 1.8%;
+			margin-right: 10px;
+			background-color: #F8F8F8;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+			border-radius: 20px;
+		}
+
+		.sobre::-webkit-scrollbar-thumb {
+			border-radius: 1em;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+			background-color: #CCCCCC;
 		}
 
 		.titulos {
@@ -198,7 +236,7 @@
 
 		.button:hover {
 			background-color: #936520;
-			width: 115%;
+			width: 150%;
 			transition: 0.6s;
 
 		}
@@ -217,12 +255,16 @@
 	{
 
 	#menuarriba {
-		background-image: url(Images/Cabezera.jpg);
+		background-image: url(Images/Cabecerapc.jpg);
 		height: 20%;		
 		overflow: hidden;
 		background-repeat: no-repeat;
 
 		}
+
+	#cuadrotitol {
+	background-color: rgba(0,0,0,0.5);
+	}
 
 	#titol {
 		font-size: 5em;
@@ -238,7 +280,7 @@
 		}
 
 	.contingut {
-		background-image: url(Images/Bloemfontein.jpg);
+		background-image: url(Images/fondopc.jpg);
 		background-repeat: repeat;
 		height: 75%;
 		overflow: auto;
@@ -247,13 +289,29 @@
 
 	.sobre {
 		width: 80%;
-		height: 90%;
+		height: auto;
+		max-height: 90%;
 		margin: 4% auto;
 		font-family: Times;
 		background-color: rgba(255,255,255,0.8);
-		border-radius: 15px;
+		border-top-left-radius: 1em;
+		border-bottom-left-radius: 1em;
 		overflow: auto;
 		}
+
+	.sobre::-webkit-scrollbar {
+		width: 1.2%;
+		margin-right: 10px;
+		background-color: #F8F8F8;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+		border-radius: 20px;
+	}
+
+	.sobre::-webkit-scrollbar-thumb {
+		border-radius: 1em;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+		background-color: #CCCCCC;
+	}
 
 	.titulos {
 		padding-top: 0.8em;
