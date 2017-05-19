@@ -65,7 +65,7 @@
 		}
 
 		.sobre::-webkit-scrollbar {
-			width: 2%;
+			width: 2.5%;
 			margin-right: 10px;
 			background-color: #F8F8F8;
 			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
