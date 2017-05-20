@@ -1,0 +1,133 @@
+	
+	/* Escriptori */
+	
+
+@media only screen and (min-width: 768px)
+	{
+
+	#menuarriba {
+		background-image: url(Images/Cabecerapc.jpg);
+		height: 20%;		
+		overflow: hidden;
+		background-repeat: no-repeat;
+
+		}
+
+	#cuadrotitol {
+		background-color: rgba(0,0,0,0.5);
+		}
+
+	#titol {
+		font-size: 5em;
+		color: #FFF;
+		margin: 0.5em;
+		cursor: default;
+		user-select:none;
+	}
+
+		
+	#menulateral {
+		background-color: #000;
+		height: auto;
+		overflow: hidden;
+		}
+
+	#obri{
+		display: none;
+		}
+
+	#flecha{
+		display: none;
+		}
+
+	.contingut {
+		background-image: url(Images/fondopc.jpg);
+		background-repeat: repeat;
+		height: 75%;
+		overflow: auto;
+		
+		}
+
+	.sobre {
+		width: 80%;
+		height: auto;
+		max-height: 90%;
+		margin: 4% auto;
+		font-family: Times;
+		background-color: rgba(255,255,255,0.8);
+		border-top-left-radius: 1em;
+		border-bottom-left-radius: 1em;
+		overflow: auto;
+		}
+
+	.sobre::-webkit-scrollbar {
+		width: 1.2%;
+		margin-right: 10px;
+		background-color: #F8F8F8;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+		border-radius: 20px;
+	}
+
+	.sobre::-webkit-scrollbar-thumb {
+		border-radius: 1em;
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+		background-color: #CCCCCC;
+	}
+
+	.titulos {
+		padding-top: 0.8em;
+		cursor: default;
+		}
+
+	.textos {
+		width: 80%;
+		margin: 5% auto;
+		margin-top: 1%;
+		text-align: justify;
+		}
+
+	ul {
+
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #2E2E2E;
+	}
+
+	li {
+	    float: left;
+	}
+
+	li a {
+
+		display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 14px;
+	    text-decoration: none;
+		transition: all 0.8s;
+	}
+	.button {
+
+		display: inline-block;
+	  	cursor: pointer;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	outline: none;
+	  	color: #fff;
+	  	background-color: #2E2E2E;
+	  	border: none;
+	}
+
+	.button:hover {
+		background-color: #936520;
+		transition: 0.6s;
+
+	}
+
+	.button:active {
+	  background-color: #DD901D;
+	  transform: translateY(0.2em);
+	  transition: none;
+	}
