@@ -5,7 +5,10 @@
 			<title>Guia de Viatge - Sud-Àfrica</title>
 			<meta author="Viajes SC">
 			<meta name="viewport" content="width=device-width, initial-scale=1">
-			<link rel="stylesheet" type="text/css" href="Estilo sintesis_2.css">
+			<link rel="stylesheet" type="text/css" href="Estilo_Landscape.css">
+			<link rel="stylesheet" type="text/css" href="Estilo_Escriptori.css">
+			<link rel="stylesheet" type="text/css" href="Estilo_Portrait.css">
+			<link rel="stylesheet" type="text/css" href="Estilo_Body.css">
 			<link rel="icon" type="image/png" href="Images/iconoweb.png">
 		</head>
 		<body>
@@ -16,14 +19,16 @@
 			</div>
 
 			<div id="menulateral">
-				<ul>
-					  <li><button class="button"><a href="#historia">Historia</a></li></button>
-					  <li><button class="button"><a href="#geografia">Geografia</a></li></button>
-					  <li><button class="button"><a href="#fif">Flora i fauna</a></li></button>
-					  <li><button class="button"><a href="#cultura">Cultura</a></li></button>
-					  <li><button class="button"><a href="#gastronomia">Gastronomia</a></li></button>
-					  <li><button class="button"><a href="#mapes">Mapes</a></li></button>
-					  <li><button class="button"><a href="#informacio">Informació</a></li></button>
+				<h2 id="obri" onclick="obri()">≡</h2>
+				<ul id="burguer">
+					<button class="button" id="flecha" onclick="tanca()">←</button>
+					  <li><button class="button" onclick="tanca()"><a href="#historia">Historia</a></li></button>
+					  <li><button class="button" onclick="tanca()"><a href="#geografia">Geografia</a></li></button>
+					  <li><button class="button" onclick="tanca()"><a href="#fif">Flora i fauna</a></li></button>
+					  <li><button class="button" onclick="tanca()"><a href="#cultura">Cultura</a></li></button>
+					  <li><button class="button" onclick="tanca()"><a href="#gastronomia">Gastronomia</a></li></button>
+					  <li><button class="button" onclick="tanca()"><a href="#mapes">Mapes</a></li></button>
+					  <li><button class="button" onclick="tanca()"><a href="#informacio">Informació</a></li></button>
 				</ul>
 			</div>
 
@@ -68,6 +73,20 @@
 				</div>
 
 			</div>
+			
+
+		<script type="text/javascript" language="javascript">
+
+			function obri(){
+				document.getElementById('burguer').style.left="0";
+			}
+
+			function tanca(){
+				document.getElementById('burguer').style.left="-40%";
+			}
+		</script>
+
+
 
 		</body>
 

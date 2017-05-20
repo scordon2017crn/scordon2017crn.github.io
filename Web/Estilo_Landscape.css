@@ -1,0 +1,163 @@
+
+	/* Mobil Horitzontal*/
+			
+
+@media only screen and (max-width: 767px) and (orientation: landscape)
+	{
+		#menuarriba {
+			background-image: url(Images/cabeceralandscape.jpg);
+			height: 80px;		
+			overflow: hidden;
+			background-repeat: repeat-x;
+
+		}
+
+		#cuadrotitol {
+			background-color: rgba(0,0,0,0.4);
+		}
+
+		#titol {
+			font-size: 1.5em;
+			color: #fff;
+		}
+			
+		#menulateral {
+			background-color: #2E2E2E;
+			overflow-y: auto;
+			overflow-x: hidden;
+			float: none;
+		}
+
+		#burguer {
+			width: auto;
+			max-width: 20%;
+			height: 80%;
+			position: absolute;
+			left: -40%;
+			font-size: 2em;
+			margin: 0;
+			padding: 0;
+			transition: 0.5s;
+			overflow-y: auto;
+			overflow-x: hidden;
+		}
+
+		#obri {
+			background-color: rgba(255,255,255,0.8); ;
+			position: absolute;
+			cursor: pointer;
+			margin: 0;
+			margin-top: 4%;
+			padding: 0;
+			border-top-right-radius: 1em;
+			border-bottom-right-radius: 1em;
+			width: 1.5em;
+		}
+
+		#obri:hover {
+			background-color: #2E2E2E;
+			color: white;
+		}
+
+		#flecha {
+			cursor: pointer;
+			color: white;
+			font-size: 20px;
+			padding: 0.5em 0.2em;
+		    padding-right: 8em;
+		}
+
+		#flecha:hover {
+			background-color: #808080;
+			transition: 0.3s;
+		}
+
+		#flecha:active {
+		 	background-color: #DD901D;
+		 	transition: none;
+		}
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			background-color: #2E2E2E;
+		}
+
+		li {
+		    float: left;
+		}
+
+		li a {
+			display: inline-block;
+			text-align: left;
+		    color: white;
+		    padding: 1em 0.2em;
+		    padding-right: 2em;
+		    text-decoration: none;
+			transition: 0.6s;
+		}
+		.button {
+		  	text-decoration: none;
+		  	outline: none;
+		  	background-color: #2E2E2E;
+		  	border: none;
+		}
+
+		.button:hover {
+			background-color: #936520;
+			transition: 0.6s;
+		}
+
+		.button:active {
+		 	background-color: #DD901D;
+		 	transform: translateX(0.2em);
+		 	transition: none;
+		}
+
+
+
+		.contingut {
+			background-image: url(Images/fondolandscape.jpg);
+			height: 100%;
+			overflow: auto;
+		}
+
+		.sobre {
+			width: 80%;
+			height: 90%;
+			margin: 4% auto;
+			font-family: Times;
+			background-color: rgba(255,255,255,0.8);
+			border-top-left-radius: 1em;
+			border-bottom-left-radius: 1em;
+			overflow: auto;
+		}
+
+		.sobre::-webkit-scrollbar {
+			width: 1.8%;
+			margin-right: 10px;
+			background-color: #F8F8F8;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+			border-radius: 20px;
+		}
+
+		.sobre::-webkit-scrollbar-thumb {
+			border-radius: 1em;
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
+			background-color: #CCCCCC;
+		}
+
+		.titulos {
+			padding: 0.8em;
+			cursor: default;
+		}
+
+		.textos {
+			width: 80%;
+			margin: 5% auto;
+			margin-top: 1%;
+			text-align: justify;
+		}
+
+	}
