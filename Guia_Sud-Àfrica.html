@@ -19,7 +19,7 @@
 			</div>
 
 			<div id="menulateral">
-				<h2 class="tooltip" id="obri" onclick="obri()">≡</h2>
+				<h2 id="obri" onclick="obri()">≡</h2>
 				<ul id="burguer">
 					<li><button class="button" id="flecha" onclick="tanca()">←</button></li>
 					<li><button class="button" onclick="tanca()"><a href="#historia">Historia</a></li></button>
@@ -79,11 +79,14 @@
 
 			function obri(){
 				document.getElementById('burguer').style.left="0";
+				document.getElementById("obri").style.visibility = "hidden";
 			}
 
 			function tanca(){
 				document.getElementById('burguer').style.left="-100%";
+				document.getElementById("obri").style.visibility = "visible";
 			}
+
 		</script>
 
 
