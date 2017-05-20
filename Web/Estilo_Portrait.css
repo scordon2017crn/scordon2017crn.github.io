@@ -6,8 +6,8 @@
 	{
 		#menuarriba {
 			background-image: url(Images/cabeceraportrait.jpg);
-			height: 15%;
 			min-height: 70px;
+			height: 15%;
 			overflow: hidden;
 			background-repeat: repeat;
 
@@ -107,10 +107,13 @@
 		    text-decoration: none;
 		}
 		.button {
-		  	text-decoration: none;
+			cursor: pointer;
+			text-decoration: none;
 		  	outline: none;
 		  	background-color: #2E2E2E;
 		  	border: none;
+		  	position: relative;
+		  	padding-right: 50px;
 		}
 
 		.button:hover {
@@ -119,13 +122,14 @@
 		}
 
 		.button:active {
+			cursor: pointer;
 		 	background-color: #DD901D;
 		 	transform: translateX(0.2em);
 		 	transition: none;
 		}
 
 		.contingut {
-			background-image: url(Images/fondoportrait.jpg);
+			background-image: url(Images/fondo_portrait1.jpg);
 			height: 85%;
 			overflow: auto;
 		}

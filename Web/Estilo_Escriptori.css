@@ -7,6 +7,7 @@
 
 	#menuarriba {
 		background-image: url(Images/Cabecerapc.jpg);
+		min-height: 150px;
 		height: 20%;		
 		overflow: hidden;
 		background-repeat: no-repeat;
@@ -109,7 +110,6 @@
 		transition: all 0.8s;
 	}
 	.button {
-
 		display: inline-block;
 	  	cursor: pointer;
 	  	text-align: center;
@@ -127,7 +127,8 @@
 	}
 
 	.button:active {
-	  background-color: #DD901D;
-	  transform: translateY(0.2em);
-	  transition: none;
+		cursor: pointer;
+		background-color: #DD901D;
+		transform: translateY(0.2em);
+		transition: none;
 	}
