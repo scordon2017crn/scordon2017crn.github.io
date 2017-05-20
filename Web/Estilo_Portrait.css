@@ -6,8 +6,8 @@
 	{
 		#menuarriba {
 			background-image: url(Images/cabeceraportrait.jpg);
-			min-height: 70px;
-			height: 15%;
+			min-height: 65px;
+			height: 13%;
 			overflow: hidden;
 			background-repeat: repeat;
 
@@ -40,7 +40,7 @@
 		#burguer {
 			width: auto;
 			max-width: 100px;
-			height: 85%;
+			height: 87%;
 			position: absolute;
 			left: -100%;
 			font-size: 2em;
@@ -130,7 +130,7 @@
 
 		.contingut {
 			background-image: url(Images/fondo_portrait1.jpg);
-			height: 85%;
+			height: 87%;
 			overflow: auto;
 		}
 
