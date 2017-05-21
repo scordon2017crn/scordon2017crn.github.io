@@ -6,24 +6,58 @@
 	{
 
 	#menuarriba {
-		background-image: url(Images/Cabecerapc.jpg);
 		min-height: 150px;
 		height: 20%;		
 		overflow: hidden;
 		background-repeat: no-repeat;
+	}
 
-		}
+	#imgfons1 {
+		background-image: url(Images/Cabecera/imgfons1.jpg);
+		width: 20%;
+		height: 100%;
+		float: left;
+	}
+	#imgfons2 {
+		background-image: url(Images/Cabecera/imgfons2.jpg);
+		width: 20%;
+		height: 100%;
+		float: left;
+	}
+	#imgfons3 {
+		background-image: url(Images/Cabecera/imgfons3.jpg);
+		width: 20%;
+		height: 100%;
+		float: left;
+	}
+	#imgfons4 {
+		background-image: url(Images/Cabecera/imgfons4.jpg);
+		width: 20%;
+		height: 100%;
+		float: left;
+	}
+	#imgfons5 {
+		background-image: url(Images/Cabecera/imgfons5.jpg);
+		width: 20%;
+		height: 100%;
+		float: left;
+	}
+
 
 	#cuadrotitol {
+		position: absolute;
+		width: 100%;
+		margin-top: 2.8em;
+		height: auto;
 		background-color: rgba(0,0,0,0.5);
-		}
+	}
 
 	#titol {
 		font-size: 5em;
 		color: #FFF;
-		margin: 0.5em;
+		margin: 5px;
 		cursor: default;
-		user-select:none;
+		user-select: none;
 	}
 
 		
@@ -42,8 +76,8 @@
 		}
 
 	.contingut {
-		background-image: url(Images/fondopc.jpg);
-		background-repeat: repeat;
+		background-image: url(Images/Fondo_escriptori.jpg);
+		background-repeat: no-repeat;
 		height: 75%;
 		overflow: auto;
 		
@@ -55,7 +89,7 @@
 		max-height: 90%;
 		margin: 4% auto;
 		font-family: Times;
-		background-color: rgba(255,255,255,0.8);
+		background-color: rgba(255,255,255,0.7);
 		border-top-left-radius: 1em;
 		border-bottom-left-radius: 1em;
 		overflow: auto;
