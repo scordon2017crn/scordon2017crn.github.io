@@ -222,9 +222,11 @@
 		.apartados {
 			text-align: left;
 			padding-left: 10%;
+			color: rgb(198,129,24);
 		}
 
 		.subapartados {
+			font-size: 1.2em;
 			text-align: left;
 			padding-left: 10%;
 			margin-bottom: -4%;
