@@ -3,7 +3,8 @@
 			
 
 @media only screen and (max-width: 767px) and (orientation: landscape)
-	{
+
+{
 		#menuarriba {
 			min-height: 70px;
 			height: 30%;		
@@ -55,6 +56,7 @@
 			font-size: 2em;
 			color: #fff;
 			margin-top: 0.2em;
+			user-select: none;
 		}
 			
 		#menulateral {
@@ -86,6 +88,7 @@
 			border-top-right-radius: 1em;
 			border-bottom-right-radius: 1em;
 			width: 1.5em;
+			user-select: none;
 		}
 
 		#obri:hover {
@@ -98,6 +101,7 @@
 			color: white;
 			font-size: 20px;
 			padding-bottom: 50px;
+			user-select: none;
 		}
 
 		#flecha:hover {
@@ -128,9 +132,9 @@
 		    color: white;
 		    padding: 0.8em 0.2em;
 		    padding-bottom: 40px;
-
 		    text-decoration: none;
 			transition: 0.6s;
+			user-select: none;
 		}
 		.button {
 			cursor: pointer;
@@ -190,11 +194,21 @@
 			cursor: default;
 		}
 
+		p {
+			text-align: left;
+			width: 80%;
+			margin: 5% auto;
+		}
+
 		.textos {
 			width: 80%;
 			margin: 5% auto;
-			margin-top: 1%;
 			text-align: justify;
+		}
+
+		.apartados {
+			text-align: left;
+			padding-left: 10%;
 		}
 
 		.telfs {
@@ -206,12 +220,48 @@
 		}
 
 		.num {
-			color: #386634;
+			color: #344999;
 			text-decoration: none;
+			user-select: none;
 		}
 
 		.num:hover {
-			color: white;
+			color: #7484C7;
 		}
 
-	}
+		.tooltip {
+	    position: relative;
+	    display: inline-block;
+		}
+
+		.tooltip .tooltiptext {
+		    visibility: hidden;
+		    width: 110%;
+		    background-color: #2E2E2E;
+		    color: #fff;
+		    text-align: center;
+		    border-radius: 6px;
+		    padding: 5px 0;
+		    position: absolute;
+		    z-index: 1;
+		    bottom: 120%;
+		    left: 40%;
+		    margin-left: -45%;
+		}
+
+		.tooltip .tooltiptext::after {
+		    content: "";
+		    position: absolute;
+		    top: 100%;
+		    left: 50%;
+		    margin-left: -5px;
+		    border-width: 5px;
+		    border-style: solid;
+		    border-color: #2E2E2E transparent transparent transparent;
+		}
+
+		.tooltip:hover .tooltiptext {
+		    visibility: visible;
+		}
+
+}

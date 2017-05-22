@@ -3,7 +3,8 @@
 	
 
 @media only screen and (min-width: 768px)
-	{
+
+{
 
 	#menuarriba {
 		min-height: 150px;
@@ -67,6 +68,53 @@
 		overflow: hidden;
 		}
 
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #2E2E2E;
+	}
+
+	li {
+	    float: left;
+	}
+
+	li a {
+
+		display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 14px;
+	    text-decoration: none;
+		transition: all 0.8s;
+		user-select: none;
+	}
+
+	.button {
+		display: inline-block;
+	  	cursor: pointer;
+	  	text-align: center;
+	  	text-decoration: none;
+	  	outline: none;
+	  	color: #fff;
+	  	background-color: #2E2E2E;
+	  	border: none;
+	}
+
+	.button:hover {
+		background-color: #936520;
+		transition: 0.6s;
+
+	}
+
+	.button:active {
+		cursor: pointer;
+		background-color: #DD901D;
+		transform: translateY(0.2em);
+		transition: none;
+	}
+
 	#obri{
 		display: none;
 		}
@@ -112,72 +160,78 @@
 	.titulos {
 		padding-top: 0.8em;
 		cursor: default;
-		}
+	}
+
+	p {
+		text-align: left;
+		width: 80%;
+		margin: 5% auto;
+	}
 
 	.textos {
 		width: 80%;
 		margin: 5% auto;
+		margin-top: 1%;
 		text-align: justify;
-		}
+	}
+
+	.apartados {
+		text-align: left;
+		padding-left: 10%;
+	}
 
 	.telfs {
-			text-align: justify;
-			width: auto;
-			height: auto;
-			background-color: rgba(63,165,53,0.19);
-			padding-left: 10%;
-		}
+		text-align: justify;
+		width: auto;
+		height: auto;
+		background-color: rgba(63,165,53,0.19);
+		padding-left: 10%;
+	}
 
 	.num {
-		color: #386634;
+		color: #344999;
 		text-decoration: none;
+		user-select: none;
 	}
 
 	.num:hover {
-		color: white;
+		color: #7484C7;
 	}
 
-	ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: #2E2E2E;
+	.tooltip {
+    position: relative;
+    display: inline-block;
 	}
 
-	li {
-	    float: left;
-	}
-
-	li a {
-
-		display: block;
-	    color: white;
+	.tooltip .tooltiptext {
+	    visibility: hidden;
+	    width: 110%;
+	    background-color: #2E2E2E;
+	    color: #fff;
 	    text-align: center;
-	    padding: 14px 14px;
-	    text-decoration: none;
-		transition: all 0.8s;
-	}
-	.button {
-		display: inline-block;
-	  	cursor: pointer;
-	  	text-align: center;
-	  	text-decoration: none;
-	  	outline: none;
-	  	color: #fff;
-	  	background-color: #2E2E2E;
-	  	border: none;
+	    border-radius: 6px;
+	    padding: 5px 0;
+	    position: absolute;
+	    z-index: 1;
+	    bottom: 120%;
+	    left: 40%;
+	    margin-left: -45%;
 	}
 
-	.button:hover {
-		background-color: #936520;
-		transition: 0.6s;
-
+	.tooltip .tooltiptext::after {
+	    content: "";
+	    position: absolute;
+	    top: 100%;
+	    left: 50%;
+	    margin-left: -5px;
+	    border-width: 5px;
+	    border-style: solid;
+	    border-color: #2E2E2E transparent transparent transparent;
 	}
 
-	.button:active {
-		cursor: pointer;
-		background-color: #DD901D;
-		transform: translateY(0.2em);
-		transition: none;
+	.tooltip:hover .tooltiptext {
+	    visibility: visible;
 	}
+
+
+}
