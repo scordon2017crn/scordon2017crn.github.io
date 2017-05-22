@@ -206,6 +206,12 @@
 			cursor: default;
 		}
 
+		p {
+		text-align: left;
+		width: 80%;
+		margin: 5% auto;
+	}
+
 		.textos {
 			width: 80%;
 			margin: 5% auto;
