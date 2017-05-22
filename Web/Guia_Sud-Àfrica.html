@@ -169,6 +169,7 @@
 
 				<div class="sobre" id="informacio">
 					<h2 class="titulos">Informació</h2>
+					<h3 class="apartados">Taxis</h3>
 					<p class="textos">Els taxis són abundants i assequibles. Si vols demanar un taxi, de vegades es poden trobar taxis estacionats a les parades del centre de les grans ciutats, però normalment s'haurà de trucar per demanar un taxi.</p>
 
 					<p class="textos">Hi ha 3 tipus de taxi:<br/>
@@ -189,6 +190,65 @@
 
 					<div class="telfs"><b>Telf</b>: <a class="num" href="tel:+27 21 448 4444"><b>+27 21 448 4444</b></a> (Excite Taxis)</p>
 					</div>
+
+					<h3 class="apartados">Circulació</h3>
+					<p class="textos">A Sud-Àfrica es circula per l'esquerra.<br/>
+					S'ha de tenir en compte que s'apliquen severes multes per sobrepassar els límits de velocitat.</p>
+
+					<p>El límit de velocitat és:</p>
+
+					<p>
+					• Ciutat: <b>60 km/h</b><br/>
+					• Carreteres: <b>100 km/h</b><br/>
+					• Autopistes <b>120 km/h</b><br/>
+
+					<h3 class="apartados">Electricitat</h3>
+					<p class="textos">A Sud-àfrica el voltatge comú és de <b>230V</b>.<br/>
+					Tenen una freqüència de <b>50Hz</b>.<br/>
+					Les clavilles i endolls són del tipus <b>D/M</b>.</p>
+
+					<h3 class="apartados">Telèfon</h3>
+					<p class="teztos">El prefix telefònic del país és: <b>+27</b></p>
+
+					<div class="telfs">
+					• Emergencies: <a class="num" href="tel:112"><b>112</b><br/></a>
+					• Emergencies mèdiques: <a class="num" href="tel:10177"><b>10177</b><br/></a>
+					• Policia: <a class="num" href="tel:10111"><b>10111</b></a></p>
+					</div>
+
+					<h3 class="apartados">Economia</h3>
+					<p class="textos">Sobre les targetes de crèdit o dèbit, accepten les més importants com ara <b><i>American Express</i></b>,<b><i> Diners Club,</i></b>
+					<b><i>Mastercard</i></b>, i <b><i>Visa Sud-àfrica</i></b> té un impost sobre el valor afegit (IVA) del <b>14%</b>, els viatgers estrangers que abandonin el país poden reclamar gran part d'aquest portecentaje dels béns que treguin.<br/>
+					Per efectuar la reclamació, el valor total dels béns adquirits ha de superar els <b>250 ZAR</b></p>
+
+					<h3 class="apartados">Ambaixada d'Espanya a Pretoria</h3>
+
+					<h4 class="subapartados">Localització</h4>
+					<p>Lord Charles Complex, 337 Brooklyn Road - Pretòria 0181</p>
+					<div id="map">
+					</div>
+
+					<h4 class="subapartados">Contacte</h4>
+					<p>
+					<div class="telfs">
+					Telèfon des d'Espanya<br/>
+					<a class="num" href="tel:00 27 12 460 01 23"><b><i>00 27 12 460 01 23</i></b><br/></a></p>
+					</div>
+					<p>
+					<div class="telfs">
+					Telèfon des Sud-àfrica<br/>
+					<a class="num" href="tel:012 460 01 23"><b><i>012 460 01 23</i></b><br/></a></p>
+					</div>
+					<p>
+					<div class="telfs">
+					Telèfon d'Emergència consular<br/>
+					<a class="num" href="tel:0027 (0) 76 114 61 51"><b><i>0027 (0) 76 114 61 51</i></b><br/></a></p>
+					</div>
+
+
+
+
+
 				</div>
 
 			</div>
@@ -206,8 +266,21 @@
 				document.getElementById("obri").style.visibility = "visible";
 			}
 
+			function initMap() {
+	        var uluru = {lat: -25.770225, lng: 28.251020};
+	        var map = new google.maps.Map(document.getElementById('map'), {
+	          zoom: 15,
+	          center: uluru
+	        });
+	        var marker = new google.maps.Marker({
+	          position: uluru,
+	          map: map
+	        });
+	      }
 		</script>
 
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBwh597KYO2yCgMSYsN0Oais8FNQO4QsO0&callback=initMap" async defer>
+		</script>
 
 
 		</body>

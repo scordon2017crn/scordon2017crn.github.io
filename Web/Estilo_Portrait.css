@@ -188,7 +188,7 @@
 		}
 
 		.sobre::-webkit-scrollbar {
-			width: 2.5%;
+			width: 3%;
 			margin-right: 10px;
 			background-color: #F8F8F8;
 			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.4);
@@ -222,6 +222,12 @@
 		.apartados {
 			text-align: left;
 			padding-left: 10%;
+		}
+
+		.subapartados {
+			text-align: left;
+			padding-left: 10%;
+			margin-bottom: -4%;
 		}
 
 		.telfs {
@@ -274,5 +280,11 @@
 		.tooltip:hover .tooltiptext {
 		    visibility: visible;
 		}
+
+		#map {
+		width: 80%;
+		height: 200px;
+		margin-left: 10%;
+	}
 
 	}

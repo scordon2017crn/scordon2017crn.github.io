@@ -211,6 +211,12 @@
 			padding-left: 10%;
 		}
 
+		.subapartados {
+			text-align: left;
+			padding-left: 10%;
+			margin-bottom: -4%;
+		}
+
 		.telfs {
 			text-align: justify;
 			width: auto;
@@ -263,5 +269,11 @@
 		.tooltip:hover .tooltiptext {
 		    visibility: visible;
 		}
+
+		#map {
+		width: 80%;
+		height: 200px;
+		margin-left: 10%;
+	}
 
 }
