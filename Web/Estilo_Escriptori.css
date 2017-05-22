@@ -117,12 +117,27 @@
 	.textos {
 		width: 80%;
 		margin: 5% auto;
-		margin-top: 1%;
 		text-align: justify;
 		}
 
-	ul {
+	.telfs {
+			text-align: justify;
+			width: auto;
+			height: auto;
+			background-color: rgba(63,165,53,0.19);
+			padding-left: 10%;
+		}
 
+	.num {
+		color: #386634;
+		text-decoration: none;
+	}
+
+	.num:hover {
+		color: white;
+	}
+
+	ul {
 		list-style-type: none;
 		margin: 0;
 		padding: 0;

@@ -197,4 +197,21 @@
 			text-align: justify;
 		}
 
+		.telfs {
+			text-align: justify;
+			width: auto;
+			height: auto;
+			background-color: rgba(63,165,53,0.19);
+			padding-left: 10%;
+		}
+
+		.num {
+			color: #386634;
+			text-decoration: none;
+		}
+
+		.num:hover {
+			color: white;
+		}
+
 	}
