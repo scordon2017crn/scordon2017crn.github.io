@@ -140,7 +140,8 @@
 		background-color: rgba(255,255,255,0.7);
 		border-top-left-radius: 1em;
 		border-bottom-left-radius: 1em;
-		overflow: auto;
+		overflow-y: auto;
+		overflow-x: hidden;
 		}
 
 	.sobre::-webkit-scrollbar {
@@ -165,12 +166,12 @@
 	p {
 		text-align: left;
 		width: 80%;
-		margin: 5% auto;
+		margin: 3% auto;
 	}
 
 	.textos {
 		width: 80%;
-		margin: 5% auto;
+		margin: 3% auto;
 		margin-top: 1%;
 		text-align: justify;
 	}
@@ -246,5 +247,244 @@
 		height: 300px;
 		margin-left: 10%;
 	}
+
+	.imglistas {
+		width: 80%;
+		text-align: center;
+		margin: 10px auto;
+	}
+
+		/* IMGS HISTORIA */
+
+			#jaciments{
+				background-image: url(Images/historia/jaciments.jpg);
+				margin: 0 auto;
+				width: 685px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#guerraboer {
+				background-image: url(Images/historia/guerraboer.jpg);
+				width: 429px;
+				margin: 0 auto;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#imgaparteid {
+				background-image: url(Images/historia/aparteid.jpg);
+				margin: 0 auto;
+				width: 240px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+		/* IMGS GEOGRAFIA */
+
+			#mapageo {
+				background-image: url(Images/geografia/mapageo.png);
+				margin: 0 auto;
+				width: 388px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#mapapol {
+				background-image: url(Images/geografia/mapapol.png);
+				margin: 0 auto;
+				width: 601px;
+				height: 521px;
+				background-repeat: no-repeat;
+			}
+
+			#clima {
+				background-image: url(Images/geografia/clima.jpg);
+				margin: 0 auto;
+				width: 615px;
+				height: 380px;
+				background-repeat: no-repeat;
+			}
+
+			#orangeriver {
+				background-image: url(Images/geografia/orangeriver.jpg);
+				margin: 0 auto;
+				width: 618px;
+				height: 320px;
+				background-repeat: no-repeat;
+			}
+
+			#vaalriver {
+				background-image: url(Images/geografia/vaalriver.jpg);
+				margin: 0 auto;
+				width: 618px;
+				height: 320px;
+				background-repeat: no-repeat;
+			}
+
+			#limporiver {
+				background-image: url(Images/geografia/limporiver.jpg);
+				margin: 0 auto;
+				width: 618px;
+				height: 320px;
+				background-repeat: no-repeat;
+			}
+
+			#drakensimg {
+				background-image: url(Images/geografia/drakensimg.jpg);
+				margin-top: -15px;
+				margin: 0 auto;
+				width: 1333px;
+				height: 500px;
+				background-repeat: no-repeat;
+			}
+
+
+		/* IMGS FLORA Y FAUNA */
+
+			#praderafif {
+				background-image: url(Images/fif/praderafif.jpg);
+				margin-top: -15px;
+				margin: 0 auto;
+				width: 1000px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#sabanafif {
+				background-image: url(Images/fif/sabanafif.jpg);
+				margin-top: -15px;
+				margin: 0 auto;
+				width: 1000px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#karoofif {
+				background-image: url(Images/fif/karoofif.jpg);
+				margin-top: -15px;
+				margin: 0 auto;
+				width: 1000px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#cgrandes {
+				background-image: url(Images/fif/5grandes.jpg);
+				margin-top: -15px;
+				margin: 0 auto;
+				width: 800px;
+				height: 500px;
+				background-repeat: no-repeat;
+			}
+
+			#elefantefif {
+				background-image: url(Images/fif/elefantefif.jpg);
+				margin: 0 auto;
+				width: 600px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#leonfif {
+				background-image: url(Images/fif/leonfif.jpg);
+				margin: 0 auto;
+				width: 600px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#zebrafif {
+				background-image: url(Images/fif/zebrafif.jpg);
+				margin: 0 auto;
+				width: 600px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#hipofif {
+				background-image: url(Images/fif/hipofif.jpg);
+				margin: 0 auto;
+				width: 600px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#girafafif {
+				background-image: url(Images/fif/girafafif.jpg);
+				margin: 3% auto;
+				width: 600px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+
+		/* IMGS CULTURA */
+
+			#chozacul {
+				background-image: url(Images/cultura/choza.jpg);
+				margin: 3% auto;
+				width: 600px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#arte {
+				background-image: url(Images/cultura/arte.jpg);
+				margin: 3% auto;
+				width: 480px;
+				height: 240px;
+				background-repeat: no-repeat;
+			}
+
+
+		/* IMGS GASTRONOMIA */
+
+			#comida1 {
+				background-image: url(Images/gastro/comida1.jpg);
+				margin: 3% auto;
+				width: 500px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+			#comida2 {
+				background-image: url(Images/gastro/comida2.jpg);
+				margin: 3% auto;
+				width: 500px;
+				height: 300px;
+				background-repeat: no-repeat;
+			}
+
+
+		/* IMGS MAPAS */
+
+			img {
+			    border: 2px solid #ddd;
+			    border-radius: 4px;
+			    width: 250px;
+			}
+
+			img:hover {
+			    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.8);
+			}			
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
