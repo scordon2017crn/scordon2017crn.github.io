@@ -290,6 +290,12 @@
 			margin-left: 10%;
 		}
 
+		.imglistas {
+			width: 80%;
+			text-align: center;
+			margin: 10px auto;
+		}
+
 		/* IMGS HISTORIA */
 
 			#jaciments{
